@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+/**
+ * main - main block
+ * Description: %i is format specifier that detects the base automatically.
+ * No need for condition in else statement
+ * Return: 0
+ */
+int main(void)
+{
+	
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+last_digit = n % 10;
+
+if (last_digit > 5)
+printf("Last digit of %i is %i and is greater than 5\n", n, last_digit_of_n);
+else if (last_digit == 0)
+printf("Last digit of %i is %i and is 0\n", n, last_digit_of_n);
+else if (last_digit < 6 && last_digit != 0)
+printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last_digit_of_n);
+return (0);
+}

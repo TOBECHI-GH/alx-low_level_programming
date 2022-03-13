@@ -11,6 +11,7 @@ int ch;
 for (ch = 'A'; ch <= 'Z'; ch++)
 {
 	putchar(tolower(ch));
+    putchar('\n');
 }
 return (0);
 }

@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int ch = 'A'
+int ch = 'A';
 while ((isalpha(ch) != 'Q') && (isalpha(ch) != 'E'))
 {
 putchar(tolower(ch));

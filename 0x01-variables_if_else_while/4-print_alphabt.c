@@ -10,10 +10,13 @@ int main(void)
 int qq = 'Q';
 int ee = 'E';
 int ch = 'A';
-while ((ch != qq) && (ch != ee))
+while (ch <= 'Z')
+{
+if ((ch != qq) && (ch != ee)) 
 {
 putchar(tolower(ch));
 ch++;
+}
 }
 putchar('\n');
 return (0);

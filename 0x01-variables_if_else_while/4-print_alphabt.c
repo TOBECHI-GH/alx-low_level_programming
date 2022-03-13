@@ -8,10 +8,10 @@
 int main(void)
 {
 int ch = 'A';
-while ((isalpha(ch) != 'Q') && (isalpha(ch) != 'E'))
+while (isalpha(ch) != 'Q' && isalpha(ch) != 'E')
 {
 putchar(tolower(ch));
-ch++; 
+ch++;
 }
 putchar('\n');
 return (0);

@@ -7,10 +7,10 @@
  */
 int main(void) 
 {
-char ch;
+int ch;
 char lower_case;
 
-ch = 'G\n';
+ch = 'G';
 lower_case = tolower(ch);
 putchar(lower_case);
 return (0);

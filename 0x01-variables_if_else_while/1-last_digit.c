@@ -9,7 +9,6 @@
  */
 int main(void)
 {
-	
 int n;
 int last_digit;
 

@@ -10,7 +10,7 @@ int main(void)
 int qq = 'Q';
 int ee = 'E';
 int ch = 'A';
-while (isalpha(ch) != qq && isalpha(ch) != ee)
+while ((ch != qq) && (ch != ee))
 {
 putchar(tolower(ch));
 ch++;

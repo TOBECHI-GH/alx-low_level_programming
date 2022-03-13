@@ -2,6 +2,7 @@
 /**
  * main - main block
  * Description: Print all single digit numbers of base 10
+ * How can characters accept numbers as value
  * Return: 0
  */
 int main(void)

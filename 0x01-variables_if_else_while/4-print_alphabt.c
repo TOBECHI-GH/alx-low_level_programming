@@ -4,6 +4,7 @@
  * main - main block
  * Description: Lowercase of character except q and e
  * While loop should always see the increament ++
+ * How can integer accept alphabet in single quote
  * Return: 0
  */
 int main(void)

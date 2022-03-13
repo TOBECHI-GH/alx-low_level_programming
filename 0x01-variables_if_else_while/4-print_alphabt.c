@@ -12,11 +12,11 @@ int ee = 'E';
 int ch = 'A';
 while (ch <= 'Z')
 {
-if ((ch != qq) && (ch != ee)) 
+if ((ch != qq) && (ch != ee))
 {
 putchar(tolower(ch));
-ch++;
 }
+ch++;
 }
 putchar('\n');
 return (0);

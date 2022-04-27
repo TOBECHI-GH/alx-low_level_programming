@@ -1,2 +1,1 @@
-Argc
-Argv
+Argc Argv in C
